@@ -1,19 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Contactform.css'
 
 const Contactform = () => {
+
+  const [name,setName]= useState("")
+  const [email,setEmail]= useState("")
+  const [message,setMessage]= useState("")
+  const [subject,setSubject]= useState("")
+
+  const handlesubmit=()=>{
+    console.log(name)
+    console.log(email)
+    console.log(message)
+    console.log(address)
+  }
   return (
+    
+    
+
     <div className='form'>
         <form>
           <label>Your Name</label>
-          <input type='text'></input>
+          <input type='text' value={name} onChange={event=>setName(event.data.value)}></input>
           <label>Email</label>
-          <input type='email'></input>
+          <input type='email' value={email} onChange={event=>setEmail(event.data.value)}></input>
           <label>Subject</label>
-          <input type='text'></input>
+          <input type='text' value={subject} onChange={event=>setSubject(event.data.value)}></input>
           <label>Message</label>
-          <textarea rows='6' placeholder='Type your message here...'/>
-          <button className='btn'>Submit</button>
+          <textarea rows='6' placeholder='Type your message here...' value={message} onChange={event=>setMessage(event.data.value)}/>
+          <button className='btn' onClick={handlesubmit()}>Submit</button>
         </form>
 
     </div>
