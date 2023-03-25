@@ -12,10 +12,10 @@ function HeroSection() {
         </div>
         
         <div className='content'>
-         <p>I'M AKASH</p> 
+         <p><strong>I'M AKASH</strong></p> 
         <h1 > Java Full Stack Developer</h1>
         <div>    
-            <Link to="/project" className='btn'>Projects</Link>
+            <Link to="/project" className='btn'>Resume</Link>
             <Link to="/contact" className='btn btn__light'>Contact</Link>
         </div>
         </div>

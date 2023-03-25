@@ -1,24 +1,14 @@
-import Proj1 from '../assets/proj1.jpg'
-import Proj2 from '../assets/proj2.jpg'
-import Proj3 from '../assets/proj3.jpg';
+
+import Project1 from '../assets/project1.jpg'
+
 
 const ProjectData=[{
-imgsrc: Proj2,
+imgsrc: Project1,
 projecttitle:"Blog",
-projectdes:"This is first blog This is first blogWikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation",
-view:"https://www.youtube.com/",
+projectdes:"Kirukkagal is a blog that contains of my quotes and short story in Tamil and which helps the visitor can explore my writing and having good experience.Besides,my blog has a some book recommendation section",
+view:"https://master--kirukkalgal-blog-8605a1.netlify.app/",
+source:"https://github.com/ash123-dev/blog-app"
 },
-{
-    imgsrc:Proj2,
-    projecttitle:"Blog",
-projectdes:"This is first blogWikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation",
-view:"www.google.com"
-},
-{
-    imgsrc:Proj3,
-    projecttitle:"Blog",
-projectdes:"This is first blogWikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation",
-view:"www.google.com"
-}
+
 ];
 export default ProjectData;

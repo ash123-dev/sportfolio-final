@@ -11,14 +11,18 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 40px;
     padding-bottom: 5rem;
+    
 }
 .project__card{
     background:#1a1919;
     padding: 1.2rem 1rem;
+    
+    
 } 
 .project__card img{
     width: 100%;
-    background-size: 100px;
+    height: 200px;
+    
    object-fit: cover;
   
   justify-content: center;

@@ -31,7 +31,7 @@ function Navbar() {
     <Link to="/project"> Project</Link>
 </li>
 <li>
-    <Link to="/about"> About</Link>
+    <Link to="/skill"> Skill</Link>
 </li>
 <li>
     <Link to="/contact"> Contact</Link>

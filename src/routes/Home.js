@@ -11,7 +11,8 @@ function Home() {
         <HeroSection/>
         <Work/>
         <Footer/>
-    
+
+        
     </div>
   )
 }
