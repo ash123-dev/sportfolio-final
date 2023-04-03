@@ -29,9 +29,9 @@ const Contactform = () => {
    
   }
 
-  useEffect(() => {
-    usehandlesubmit;
-    }, [])
+  // useEffect(() => {
+  //   usehandlesubmit;
+  //   }, [])
   return (
     <div className='form'>
       <form>
