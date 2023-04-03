@@ -15,7 +15,7 @@ function HeroSection() {
          <p><strong>I'M AKASH</strong></p> 
         <h1 > Java Full Stack Developer</h1>
         <div>    
-            <Link to="/project" className='btn'>Resume</Link>
+            <Link to="https://drive.google.com/file/d/1JYEkOyglFt7LlB71t1W_lacwKt9sktMO/view" className='btn'>Resume</Link>
             <Link to="/contact" className='btn btn__light'>Contact</Link>
         </div>
         </div>
