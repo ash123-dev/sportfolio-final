@@ -9,17 +9,22 @@ const Contactform = () => {
   const [message, setMessage] = useState("")
   const [subject, setSubject] = useState("")
 
-  const handlesubmit =async ()=> {
+  const usehandlesubmit =async ()=> {
 
-    await axios.post("http://localhost:8080/details/add",{
-      name,
-      email,
-      message,
-      subject
-    })
+    // await axios.post("http://localhost:8080/details/add",{
+    //   name,
+    //   email,
+    //   message,
+    //   subject
+
+    // }
+  alert("Your Message has been Sent")
+
+
+  
     
     useEffect(() => {
-    handlesubmit;
+    usehandlesubmit;
     }, [])
     
    
@@ -38,7 +43,7 @@ const Contactform = () => {
         <input type='text' value={subject} onChange={(event) => setSubject(event.target.value)}></input>
         <label>Message</label>
         <textarea rows='6' placeholder='Type your message here...' value={message} onChange={(event) => setMessage(event.target.value)} />
-        <button className='btn' onClick={handlesubmit}>Submit</button>
+        <button className='btn' onClick={usehandlesubmit}>Submit</button>
       </form>
 
     </div>
